@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ENCRIPTADOR</title>
+  <link href="index.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <!--LOGO-->
+  <div class="div-principal">
+    <div class="contenedor-logo">
+      <img class="logo" src="./imagenes/Logo.png" alt="Logo" />
+    </div>
+
+    <!--TEXTO PRINCIPAL-->
+    <div class="contenedor-texto">
+      <div contenteditable class="texto" id="textoEncriptar" ></div>
+    </div>
+
+    <!--SIDE DERECHO-->
+    <div class="contenedor-area-output">
+      <div class="contenedor-imagen-output" id="contenedorImagen">
+        <img class="muñeco" src="./imagenes/Muñeco.png" alt="Muñeco" />
+      </div>
+
+      <div class="contenedor-mensaje-no-encontrado" id="contenedorTexto1">
+        <h2 class="mensaje-no-encontrado">Ningún mensaje fue encontrado</h2>
+      </div>
+      <div class="contenedor-mensaje-ingresa-texto" id="contenedorTexto2">
+        <p class="mensaje-ingresa-texto">Ingresa el texto que desees encriptar o desencriptar</p>
+      </div>
+
+      <!--SIDE DERECHO CON BOTON PARA COPIAR-->
+        
+        <div class="contenedor-texto-encriptado" id="contenedorTextoEncriptado">
+          <div class="texto-encriptado" id="textoEncriptado"></div>
+        </div>
+        <div class="contenedor-boton-copiar" id="contenedorBotonCopiar">
+          <button class="botones" id="botonCopiar" type="text" value="texto a copiar">Copiar</button>
+        </div>
+      
+
+    </div>
+
+
+
+    <!--BOTTOM-->
+    <div class="contenedor-area-bottom">
+      <div class="contenedor-aviso">
+        <img class="imagen-aviso" src="./imagenes/Group.png" alt="Aviso" />
+        <p class="aviso">Solo letras minúsculas y sin acentos</p>
+      </div>
+
+      <div class="contenedor-botones">
+        <button class="botones" id="botonEncriptar">Encriptar</button>
+        <button class="botones" id="botonDesencriptar">Desencriptar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+
+</body>
+
+</html>
