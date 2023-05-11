@@ -350,12 +350,7 @@ body {
 
 @media screen AND (max-width:375px){
   
-  html{
-    
-  }
-  body{
-    
-  }
+ 
 
   .div-principal{
     display: flex;
