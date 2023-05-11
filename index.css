@@ -233,7 +233,7 @@ body {
 
 /*TABLET*/
 
-@media screen and (min-width: 375px) AND (max-width:768px){
+@media screen and (min-width: 376px) AND (max-width:768px){
   body{
     height: auto;
     padding-bottom: 0;
@@ -348,7 +348,7 @@ body {
 
 /*CELULAR*/
 
-@media screen AND (max-width:374px){
+@media screen AND (max-width:375px){
   
   html{
     width: 370px;
