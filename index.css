@@ -351,10 +351,10 @@ body {
 @media screen AND (max-width:375px){
   
   html{
-    width: 370px;
+    
   }
   body{
-    width: 370px;
+    
   }
 
   .div-principal{
@@ -386,6 +386,8 @@ body {
   }
 
   .texto{
+    
+    width: auto;
     font-size: 3em;
     overflow: hidden;
     display: -webkit-box;
